@@ -1,0 +1,225 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        padding: 21px 20px 93px 20px;
+    }
+    .advantages {
+        padding: 73px 15px 65px 15px;
+    }
+    .consultation {
+        padding: 100px 0 108px 30px;
+    }
+    .carousel {
+        height: auto;
+        &__inner {
+            width: 70%;
+        }
+        img {
+            width: 50%;
+        }
+        
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        
+    }
+    .feedback {
+        padding: 0 10px 48px 20px;
+    }
+    .footer {
+        &__info {
+            padding: 25px 40px 20px 40px;
+            height: 200px;
+            width: 370px
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        &__social {
+            margin-top: 20px;
+        }
+
+    }
+
+}
+@media (max-width: 768px) {
+    .header{
+        padding: 0 20px;
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 40px;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 350px;
+        }
+
+    }
+    .consultation {
+        padding: 70px 0 60px 0;
+        .title_left {
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        &__descr {
+            text-align: center;
+
+        }
+        .feed-form {
+            align-items: center; 
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+    }
+    .advantages {
+        .title {
+            font-size: 25px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header {
+            font-size: 27px;
+        }
+        
+    }
+    .carousel {
+        height: auto;
+        &__inner {
+            width: 70%;
+        }
+        img {
+            width: 50%;
+        }
+        
+    }
+    .catalog {
+        &__tabs {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &__tab {
+            font-size: 15px;
+        }
+        &-item {
+            margin: 0 auto;
+        }
+    }
+    .feedback {
+        padding: 0 10px 48px 10px;
+
+    }
+
+
+}
+@media (max-width: 575px) {
+    .header {
+        width: 97%;
+        height: 30px;
+        &__logo {
+            margin: 18px 0 0 5px;
+            img {
+                width: 80%;
+            }
+        }
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            margin-top: 25px;
+        }
+        &__phone {
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+
+    .carousel {
+        height: auto;
+        img {
+            width: 50%;
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &__tab {
+            font-size: 11px;
+        }
+        &-item {
+            margin: 0 auto;
+        }
+    }
+    .feedback {
+        padding: 0 10px 48px 10px;
+        &__text {
+            margin-left: 0;
+        }
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__descr {
+            text-align: center;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 10px 40px 20px 40px;
+            height: 170px;
+            width: 310px
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__phone {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        &__social {
+            margin-top: 10px;
+
+        }
+
+    }
+
+
+
+
+}
